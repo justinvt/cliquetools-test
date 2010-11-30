@@ -1,0 +1,31 @@
+/* Front End Programming Test
+----------------------------------------------------------------------------- */
+
+
+	@import url(actions.css);
+	@import url(messages.css);
+	@import url(tables.css);
+
+
+/* Defaults
+----------------------------------------------------------------------------- */
+
+
+	body {
+	
+	margin: 20px 0;
+	padding: 0;
+	background: #fff;
+	color: #000;
+	font: normal 12px/14px 'Trebuchet MS', Arial, sans-serif;
+	
+	}
+	
+	h2 {
+
+	margin: 0 0 20px 2%;
+	padding: 0;
+	color: #000;
+	font: bold 24px/30px 'Trebuchet MS', Arial, sans-serif;
+	
+	}

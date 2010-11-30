@@ -1,0 +1,103 @@
+/* Tables
+----------------------------------------------------------------------------- */
+
+
+	table {
+	
+	clear: left;
+	width: 96%;
+	margin: 0 2% 40px 2%;
+	padding: 0;	
+	border-collapse: collapse;
+	
+	}
+	
+	tfoot td.total {
+	
+	color: #6ba144;
+	
+	}
+
+
+/* Headers */
+
+
+	th {
+	
+	border-bottom: 2px solid #aaa;
+	border-right: 1px solid #eee;
+	padding: 10px;
+	color: #aaa;
+	font: normal 11px/11px "Trebuchet MS", Arial, sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	white-space: nowrap;
+
+	}
+
+	thead th:last-child {
+	
+	border-right: 0;
+	
+	}
+
+
+/* Cells */
+
+
+	tbody td {
+
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding: 10px;
+	white-space: nowrap;
+	
+	}
+
+	tbody tr:last-child td {
+	
+	border-bottom: 0 !important;
+	
+	}
+	
+	tbody td:last-child {
+	
+	border-right: 0;
+	
+	}
+	
+
+/* Form Elements */
+
+
+	td.error select, td.error input {
+	
+	border: 2px solid #ed6d34;
+	
+	}
+
+
+/* Footer */
+
+
+	tfoot td {
+	
+	border-right: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-bottom: 0;
+	padding: 10px;
+	
+	}
+	
+	tfoot td[colspan] {
+	
+	text-align: right;
+	color: #aaa;
+	
+	}
+
+	tfoot td:last-child {
+	
+	border-right: 0;
+	
+	}

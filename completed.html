@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Front End Programming Test &#166; Clique Tools</title>
+
+	<!-- STYLES -->
+	<link href="styles/test.css" media="screen" rel="stylesheet" type="text/css" />
+
+	<!-- SCRIPTS -->
+
+</head>
+<body>
+
+
+	<!-- ALERT MESSAGE -->
+	<div class="message success">
+	
+		<h3>Order Removed</h3>
+		<a href="#">Undo</a>
+	
+	</div>
+
+
+	<h2>Take Orders</h2>
+	
+	<form method="post" action="#">
+
+		<!-- ORDERS -->
+		<table cellspacing="0">
+		
+			<thead>
+			
+				<tr>
+				<th>Name</th>
+				<th>Main</th>
+				<th>Side</th>
+				<th>Beer</th>
+				<th style="width: 100%">Total</th>
+				<th>&nbsp;</th>
+				</tr>
+			
+			</thead>
+			
+			<tbody>
+			
+				<tr>
+				<td><input type="text" name="name-1" value="Billy" /></td>
+				<td>
+				
+					<select name="main-1">
+	
+						<option>&nbsp;</option>
+						<optgroup label="Meats &amp; Fish">
+	
+							<option value="$13.00">Pork Trotter Burger</option>
+							<option value="$17.00">Slow-cooked Farm Egg</option>
+							<option value="$14.00">Softshell Crab Po'boy</option>
+							<option value="$18.00">Seared Squid</option>
+							<option value="$19.00">Blackened Catfish</option>
+							<option value="$18.00">Fried Chicken</option>
+	
+						</optgroup>
+						<optgroup label="Vegetables">
+	
+							<option value="$19.00">Escarole Salad</option>
+							<option value="$17.00">Artichoke</option>
+							<option value="$19.00">Chilled Eggplant Soup</option>
+							<option value="$18.00">Roasted Beets and New Onions</option>
+							<option value="$18.00">Braised Cauliflower</option>
+							<option value="$18.00">Mushroom Dashi</option>
+							<option value="$18.00">Young Vegetables</option>
+							<option value="$18.00">New Harvest Potatoes</option>
+	
+						</optgroup>
+	
+						<option>None</option>
+	
+					</select>
+	
+				</td>
+				<td>
+				
+					<select name="side-1">
+	
+						<option value="$7.00">Belgian-style Fries with Aioli</option>
+						<option value="$6.00">Creamed Spinach</option>
+						<option value="$4.00">Chickpea Fritters</option>
+						<option value="$4.00">Fried Feta Cheese-Stuffed Olives</option>
+						<option value="$4.00">Collard Green</option>
+						<option value="$4.00">Potato Chicharrones</option>
+	
+						<option>None</option>
+	
+					</select>
+	
+				</td>
+				<td>
+				
+					<select name="beer-1">
+
+						<option>&nbsp;</option>
+						<optgroup label="Belgium">
+	
+							<option selected="selected" value="$9.00">St. Bernardus Abt 12</option>
+							<option value="$5.00">Saison Dupont</option>
+							<option value="$9.00">Houblon Chouffe</option>
+							<option value="$6.00">Rodenbach Grand Cru</option>
+	
+						</optgroup>
+						<optgroup label="California">
+	
+							<option value="$6.00">Linden St. Common Lager</option>
+							<option value="$6.00">Speakeasy Prohibition Ale</option>
+							<option value="$4.00">Anchor Steam Beer</option>
+							<option value="$5.00">Stone IPA</option>
+							<option value="$4.00">Pyramid Hefeweizen</option>
+	
+						</optgroup>
+						<optgroup label="Canada">
+	
+							<option value="$6.00">Unibroue Maudite</option>
+							<option value="$6.00">Unibroue La Fin du Monde</option>
+							<option value="$2.99">Molson Canadian</option>
+	
+						</optgroup>
+	
+						<option>None</option>
+	
+					</select>
+	
+				</td>
+	
+				<td>$0.00</td>
+				<td class="actions"><a class="remove" href="#">Remove</a></td>
+				</tr>
+
+				<tr>
+				<td class="error"><input name="name-2" type="text" /></td>
+				<td class="error">
+				
+					<select name="main-2">
+	
+						<option>&nbsp;</option>
+						<optgroup label="Meats &amp; Fish">
+	
+							<option value="$13.75">Pork Trotter Burger</option>
+							<option value="$17.00">Slow-cooked Farm Egg</option>
+							<option value="$14.00">Softshell Crab Po'boy</option>
+							<option value="$18.00">Seared Squid</option>
+							<option value="$19.50">Blackened Catfish</option>
+							<option value="$18.00">Fried Chicken</option>
+	
+						</optgroup>
+						<optgroup label="Vegetables">
+	
+							<option value="$19.00">Escarole Salad</option>
+							<option value="$17.00">Artichoke</option>
+							<option value="$19.00">Chilled Eggplant Soup</option>
+							<option value="$18.00">Roasted Beets and New Onions</option>
+							<option value="$18.00">Braised Cauliflower</option>
+							<option value="$18.00">Mushroom Dashi</option>
+							<option value="$18.00">Young Vegetables</option>
+							<option value="$18.00">New Harvest Potatoes</option>
+	
+						</optgroup>
+	
+						<option>None</option>
+	
+					</select>
+	
+				</td>
+				<td>
+				
+					<select name="side-2">
+
+						<option>&nbsp;</option>
+						<option value="$7.00">Belgian-style Fries with Aioli</option>
+						<option value="$6.00">Creamed Spinach</option>
+						<option value="$4.50">Chickpea Fritters</option>
+						<option value="$4.00">Fried Feta Cheese-Stuffed Olives</option>
+						<option value="$4.00">Collard Green</option>
+						<option selected="selected" value="$4.00">Potato Chicharrones</option>
+	
+						<option>None</option>
+	
+					</select>
+	
+				</td>
+				<td>
+				
+					<select name="beer-2">
+	
+						<option>&nbsp;</option>
+						<optgroup label="Belgium">
+	
+							<option value="$9.00">St. Bernardus Abt 12</option>
+							<option value="$5.50">Saison Dupont</option>
+							<option value="$9.00">Houblon Chouffe</option>
+							<option value="$6.00">Rodenbach Grand Cru</option>
+
+						</optgroup>
+						<optgroup label="California">
+	
+							<option selected="selected" value="$6.00">Linden St. Common Lager</option>
+							<option value="$6.00">Speakeasy Prohibition Ale</option>
+							<option value="$4.00">Anchor Steam Beer</option>
+							<option value="$5.00">Stone IPA</option>
+							<option value="$4.00">Pyramid Hefeweizen</option>
+	
+						</optgroup>
+						<optgroup label="Canada">
+	
+							<option value="$6.00">Unibroue Maudite</option>
+							<option value="$6.00">Unibroue La Fin du Monde</option>
+							<option value="$2.99">Molson Canadian</option>
+	
+						</optgroup>
+	
+						<option>None</option>
+	
+					</select>
+	
+				</td>
+	
+				<td>$0.00</td>
+				<td class="actions"><a class="remove" href="#">Remove</a></td>
+				</tr>
+
+			</tbody>
+			<tfoot>
+			
+				<tr>
+				<td colspan="4"><em>Sub-total</em></td>
+				<td class="total"><strong>$0.00</strong></td>
+				<td class="actions"><a class="add" href="#">Add an Order</a></td>
+				</tr>
+			
+			</tfoot>
+		
+		</table>
+		
+		<!-- ACTIONS -->
+		<ul class="actions">
+	
+			<li><a class="complete" href="#">Complete Order</a></li>
+			<li><a class="reset" href="#">Start Over</a></li>
+	
+		</ul>
+
+	</form>
+
+
+</body>
+</html>

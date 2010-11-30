@@ -1,0 +1,40 @@
+CLIQUE TOOLS
+Front End Programming Test
+--------------------------------------------------------------------------------
+
+
+The purpose of this test is to get a sense of your coding style, knowledge of DOM manipulation via jQuery, efficiency in implementation, and general finesse. An interface produced with XHTML Strict markup and CSS has been prepared in advance to focus your efforts. There is no time limit for this test, but it is intended to take no longer than 1-2 hours. If you wish, you may halt the test after that point and present your progress thus far. So long as no original functionality is broken, an incomplete implementation shall not specifically be held against you. The quality of implementation is paramount.
+
+The goal of the interface provided is to collect meal orders and calculate a sub-total. Any number of orders may be taken in a single submission. A response to each portion of a meal is required per order.
+
+Two HTML files have been included:
+
+ - test.html
+ - completed.html
+
+Start with test.html, the second file demonstrates the extent of CSS provided for use in your implementation. You may add as many files as needed.
+
+Once you are ready to present your implementation please return all necessary files and a followup interview shall be scheduled to walk through the code.
+
+
+--------------------------------------------------------------------------------
+
+
+### Requirements
+
+
+ - Implementation must progressively enhance the given markup, which must remain functional on it's own, without any Javascript
+ 
+ - Removal of any order must be confirmed with a Javascript alert
+ 
+ - Removed orders must be able to be restored with an 'Undo' function, bonus points for using HTML5 localStorage
+ 
+ - The input controls at the bottom must visually match those in completed.html
+
+ - Manipulation and submission of the form via keyboard input must be retained
+
+ - Any existing form values may not be modified
+
+ - Line item totals and overall sub-total must be dynamically calculated
+
+ - Serialize and present the contents of the form as a Javascript alert upon form submission
